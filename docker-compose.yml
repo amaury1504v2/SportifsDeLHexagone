@@ -2,6 +2,7 @@ version: "3"
 services:
   api:
     container_name: api
+    image: api
     build: . # Localisation du Dockerfile dans notre cas dans le dossier racine
     ports:
       - 5000:5000 # Nous exposons le port 5000
